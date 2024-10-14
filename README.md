@@ -10,6 +10,7 @@ To install these etcfiles, you can clone the repository and create a bare reposi
 $ cd /etc
 # git clone https://github.com/Josu-A/etcfiles.git
 $ cd $HOME
+$ git init --bare .etcfiles
 $ git --git-dir=$HOME/.etcfiles/ config --local status.showUntrackedFiles no
 $ git --git-dir=$HOME/.etcfiles --work-tree=/etc checkout -f
 ```
