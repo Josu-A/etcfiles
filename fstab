@@ -1,0 +1,12 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p3 LABEL=ROOT
+UUID=c861bd2d-6a3f-43e4-830d-4550c3913cd2	/         	ext4      	rw,relatime	0 1
+
+# /dev/nvme0n1p2 LABEL=EFIBOOT
+UUID=C050-9BAC      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+/swap/swapfile      	none      	swap      	defaults  	0 0
+
