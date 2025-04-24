@@ -3,12 +3,11 @@
 ################################################################################
 
 # With:       reflector @/etc/xdg/reflector/reflector.conf
-# When:       2024-10-14 13:14:31 UTC
+# When:       2025-04-23 23:00:58 UTC
 # From:       https://archlinux.org/mirrors/status/json/
-# Retrieved:  2024-10-14 13:14:11 UTC
-# Last Check: 2024-10-14 13:02:16 UTC
+# Retrieved:  2025-04-23 23:00:54 UTC
+# Last Check: 2025-04-23 22:55:55 UTC
 
-Server = https://mirror.raiolanetworks.com/archlinux/$repo/os/$arch
 Server = https://es.mirrors.cicku.me/archlinux/$repo/os/$arch
+Server = https://mirror.raiolanetworks.com/archlinux/$repo/os/$arch
 Server = https://nox.panibrez.com/archlinux/$repo/os/$arch
-Server = https://mirror.librelabucm.org/archlinux/$repo/os/$arch
